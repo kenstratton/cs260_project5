@@ -3,6 +3,7 @@
 using namespace std;
 
 
+
 // Length of List
 int len = 0;
 
@@ -16,6 +17,7 @@ static struct ELMT *head = NULL; // A head element in a list
 struct ELMT * elmt;              // A element used for searching or deleting a target
 struct ELMT * new_elmt;          // A new element
 struct ELMT * prev_elmt;         // A element located before a new element
+
 
 
 // Check if a list is empty
@@ -40,6 +42,7 @@ int search(int targetVal) {
         elmt = elmt->next;
         pos++;
     }
+
     return 0; // * 2
 }
 
@@ -153,6 +156,7 @@ bool exSearch(int targetVal) {
             return true;
         }
     }
+
     return false;
 }
 
@@ -170,6 +174,7 @@ bool exSearch2(int targetPos) {
         printf("(S) Position %d : %d\n", targetPos, value);
         return true;
     }
+
     return false;
 }
 
@@ -187,6 +192,7 @@ bool exAdd(int value) {
         printf("(A) Value %d : Successfully Added!\n", value);
         return true;
     }
+
     return false;
 }
 
@@ -206,6 +212,7 @@ bool exRemove(int targetVal) {
             return true;
         }
     }
+
     return false;
 }
 
@@ -220,8 +227,8 @@ int checkLength() {
 /*******************************************
 Test fuction :
  * 1. Prepare variables for tests
- * 2. Test add, remove, search, search2, isEmpty, and checkLength functions
- * 3. Test executing functions of * 2 items
+ * 2. Test add, remove, search, search2, and isEmpty functions
+ * 3. Test functions executing * 2 items
 ********************************************/
 void testList() {
     // * 1
