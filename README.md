@@ -14,11 +14,11 @@ Whether it's possible to...
     - maintain uniqueness of element values
 2. **Deletion of elements**
     - appropriately delete an element
-    - halt the deletion process when a list is empty
+    - halt the deletion process when a list is empty or when the target is not found
 3. **Search for elements**
     - search for a specific element based on its value
     - search for a specific element based on its position
-    - halt the search process when a list is empty
+    - halt the search process when a list is empty or when the target is not found
 
 ### ▼ Complexity (Big-O notation)
 |Insert|Remove|Search|
