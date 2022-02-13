@@ -23,4 +23,4 @@ Whether it's possible to...
 ### ▼ Complexity (Big-O notation)
 |Insert|Remove|Search|
 |:--:|:--:|:--:|
-| 0(1) | 0(1) | 0(n) |
+| O(1) | O(1) | O(n) |
